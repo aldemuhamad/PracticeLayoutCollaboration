@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#6635c7d7"
     tools:context="com.example.aldemuhamad.practicelayoutcollaboration.MainActivity">
 
     <ImageView
@@ -22,6 +23,7 @@
         android:text="Username"
         android:textSize="15sp"
         android:textColor="#5c5c5c"
+        android:background="#a6ffffff"
         android:textAlignment="center"
         />
 
@@ -34,6 +36,7 @@
         android:text="Password"
         android:textSize="15sp"
         android:textColor="#5c5c5c"
+        android:background="#a6ffffff"
         android:textAlignment="center"
         />
 
