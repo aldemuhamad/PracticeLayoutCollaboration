@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aldemuhamad.practicelayoutcollaboration.MainActivity">
+
+    <ImageView
+        android:src="@drawable/bglogin"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:id="@+id/mEdPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:text="Username"
+        android:textSize="15sp"
+        android:textColor="#5c5c5c"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/mEdUname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:text="Password"
+        android:textSize="15sp"
+        android:textColor="#5c5c5c"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign IN"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:background="#29a5d2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Forgot Password? Click Here!" />
+</LinearLayout>
